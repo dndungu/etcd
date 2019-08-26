@@ -21,9 +21,9 @@ import (
 
 	"github.com/karlseguin/ccache"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/adt"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/pkg/adt"
 )
 
 var (

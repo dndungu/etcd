@@ -15,8 +15,8 @@
 package v3rpc
 
 import (
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/etcdserver"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 	"golang.org/x/net/context"
 )
 

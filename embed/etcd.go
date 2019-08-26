@@ -21,17 +21,17 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v2http"
-	"github.com/coreos/etcd/pkg/cors"
-	runtimeutil "github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/etcdserver/api/v2http"
+	"github.com/dndungu/etcd/pkg/cors"
+	runtimeutil "github.com/dndungu/etcd/pkg/runtime"
+	"github.com/dndungu/etcd/pkg/transport"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/rafthttp"
 	"github.com/coreos/pkg/capnslog"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

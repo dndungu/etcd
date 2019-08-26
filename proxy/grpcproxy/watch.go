@@ -21,10 +21,10 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 )
 
 type watchProxy struct {

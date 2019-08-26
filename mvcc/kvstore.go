@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/schedule"
+	"github.com/dndungu/etcd/lease"
+	"github.com/dndungu/etcd/mvcc/backend"
+	"github.com/dndungu/etcd/mvcc/mvccpb"
+	"github.com/dndungu/etcd/pkg/schedule"
 	"github.com/coreos/pkg/capnslog"
 	"golang.org/x/net/context"
 )
@@ -50,7 +50,7 @@ var (
 	ErrFutureRev     = errors.New("mvcc: required revision is a future revision")
 	ErrCanceled      = errors.New("mvcc: watcher is canceled")
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "mvcc")
+	plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "mvcc")
 )
 
 // ConsistentIndexGetter is an interface that wraps the Get method.

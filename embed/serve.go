@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/pkg/transport"
 
 	"github.com/cockroachdb/cmux"
 	gw "github.com/grpc-ecosystem/grpc-gateway/runtime"

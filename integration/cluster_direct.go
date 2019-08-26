@@ -17,8 +17,8 @@
 package integration
 
 import (
-	"github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/clientv3"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 )
 
 func toGRPC(c *clientv3.Client) grpcAPI {

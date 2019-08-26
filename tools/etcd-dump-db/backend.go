@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/backend"
+	"github.com/dndungu/etcd/mvcc"
+	"github.com/dndungu/etcd/mvcc/backend"
 )
 
 func snapDir(dataDir string) string {

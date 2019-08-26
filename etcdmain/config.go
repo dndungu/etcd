@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/version"
+	"github.com/dndungu/etcd/embed"
+	"github.com/dndungu/etcd/pkg/flags"
+	"github.com/dndungu/etcd/version"
 	"github.com/ghodss/yaml"
 )
 

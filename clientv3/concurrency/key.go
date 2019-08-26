@@ -17,8 +17,8 @@ package concurrency
 import (
 	"fmt"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	v3 "github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 )
 

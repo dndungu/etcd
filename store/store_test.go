@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	etcdErr "github.com/coreos/etcd/error"
+	etcdErr "github.com/dndungu/etcd/error"
 	"github.com/jonboulle/clockwork"
 	"github.com/stretchr/testify/assert"
 )

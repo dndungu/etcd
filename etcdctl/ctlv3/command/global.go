@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/pkg/flags"
+	"github.com/dndungu/etcd/pkg/transport"
 	"github.com/spf13/cobra"
 )
 

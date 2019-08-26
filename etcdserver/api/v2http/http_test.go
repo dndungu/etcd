@@ -21,12 +21,12 @@ import (
 	"sort"
 	"testing"
 
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
+	etcdErr "github.com/dndungu/etcd/error"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/etcdserver/membership"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/raft/raftpb"
 	"github.com/coreos/go-semver/semver"
 	"golang.org/x/net/context"
 )

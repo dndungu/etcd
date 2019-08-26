@@ -20,11 +20,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
+	"github.com/dndungu/etcd/lease"
+	"github.com/dndungu/etcd/mvcc"
+	"github.com/dndungu/etcd/mvcc/backend"
+	"github.com/dndungu/etcd/raft/raftpb"
+	"github.com/dndungu/etcd/snap"
 )
 
 func newBackend(cfg *ServerConfig) backend.Backend {

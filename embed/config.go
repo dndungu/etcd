@@ -22,12 +22,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/dndungu/etcd/discovery"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/pkg/cors"
+	"github.com/dndungu/etcd/pkg/netutil"
+	"github.com/dndungu/etcd/pkg/transport"
+	"github.com/dndungu/etcd/pkg/types"
 	"github.com/ghodss/yaml"
 )
 
@@ -109,7 +109,7 @@ type Config struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/coreos/etcd/issues/9333 for more detail.
+	// See https://github.com/dndungu/etcd/issues/9333 for more detail.
 	InitialElectionTickAdvance bool `json:"initial-election-tick-advance"`
 
 	QuotaBackendBytes int64 `json:"quota-backend-bytes"`

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/version"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/version"
 	"github.com/coreos/go-semver/semver"
 )
 

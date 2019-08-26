@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/auth"
+	"github.com/dndungu/etcd/integration"
+	"github.com/dndungu/etcd/pkg/testutil"
 	"golang.org/x/crypto/bcrypt"
 )
 

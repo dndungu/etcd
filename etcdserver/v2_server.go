@@ -17,7 +17,7 @@ package etcdserver
 import (
 	"time"
 
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 	"golang.org/x/net/context"
 )
 

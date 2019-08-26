@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/httputil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/dndungu/etcd/etcdserver/stats"
+	"github.com/dndungu/etcd/pkg/httputil"
+	"github.com/dndungu/etcd/pkg/pbutil"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/raft"
+	"github.com/dndungu/etcd/raft/raftpb"
 )
 
 const (

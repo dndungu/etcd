@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/mvcc/mvccpb"
+	"github.com/dndungu/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 )
 

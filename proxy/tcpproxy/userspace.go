@@ -24,7 +24,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "proxy/tcpproxy")
+	plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "proxy/tcpproxy")
 )
 
 type remote struct {

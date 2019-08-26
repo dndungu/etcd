@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/version"
+	"github.com/dndungu/etcd/raft/raftpb"
+	"github.com/dndungu/etcd/version"
 	"github.com/coreos/go-semver/semver"
 )
 

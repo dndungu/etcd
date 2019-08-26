@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/coreos/etcd/pkg/tlsutil"
+	"github.com/dndungu/etcd/pkg/tlsutil"
 	"github.com/ghodss/yaml"
 )
 

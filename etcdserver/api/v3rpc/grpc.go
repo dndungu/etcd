@@ -17,8 +17,8 @@ package v3rpc
 import (
 	"crypto/tls"
 
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/etcdserver"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"google.golang.org/grpc"

@@ -23,11 +23,11 @@ import (
 	"strings"
 	"time"
 
-	pioutil "github.com/coreos/etcd/pkg/ioutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/version"
+	pioutil "github.com/dndungu/etcd/pkg/ioutil"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/raft/raftpb"
+	"github.com/dndungu/etcd/snap"
+	"github.com/dndungu/etcd/version"
 	"golang.org/x/net/context"
 )
 

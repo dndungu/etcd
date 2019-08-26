@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
+	"github.com/dndungu/etcd/pkg/fileutil"
 )
 
 // SaveDBFrom saves snapshot of the database from the given reader. It

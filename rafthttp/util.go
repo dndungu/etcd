@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/version"
+	"github.com/dndungu/etcd/pkg/transport"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/raft/raftpb"
+	"github.com/dndungu/etcd/version"
 	"github.com/coreos/go-semver/semver"
 )
 

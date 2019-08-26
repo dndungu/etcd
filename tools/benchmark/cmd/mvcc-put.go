@@ -21,8 +21,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/pkg/report"
+	"github.com/dndungu/etcd/lease"
+	"github.com/dndungu/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 )

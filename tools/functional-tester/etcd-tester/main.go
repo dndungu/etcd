@@ -21,14 +21,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/etcd/pkg/debugutil"
+	"github.com/dndungu/etcd/pkg/debugutil"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/time/rate"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcd-tester")
+var plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "etcd-tester")
 
 const (
 	defaultClientPort    = 2379

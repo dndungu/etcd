@@ -19,8 +19,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/clientv3/concurrency"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

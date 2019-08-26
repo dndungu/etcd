@@ -19,7 +19,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/dndungu/etcd/clientv3"
 	"github.com/spf13/cobra"
 )
 

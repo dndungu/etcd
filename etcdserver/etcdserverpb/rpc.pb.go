@@ -11,9 +11,9 @@ import (
 
 	math "math"
 
-	mvccpb "github.com/coreos/etcd/mvcc/mvccpb"
+	mvccpb "github.com/dndungu/etcd/mvcc/mvccpb"
 
-	authpb "github.com/coreos/etcd/auth/authpb"
+	authpb "github.com/dndungu/etcd/auth/authpb"
 
 	context "golang.org/x/net/context"
 

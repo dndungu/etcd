@@ -15,7 +15,7 @@
 package types
 
 import (
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/pkg/testutil"
 	"reflect"
 	"testing"
 )

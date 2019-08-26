@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
-	"github.com/coreos/etcd/contrib/recipes"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/clientv3/concurrency"
+	"github.com/dndungu/etcd/contrib/recipes"
 	"golang.org/x/net/context"
 )
 

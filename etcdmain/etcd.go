@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/fileutil"
-	pkgioutil "github.com/coreos/etcd/pkg/ioutil"
-	"github.com/coreos/etcd/pkg/osutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/proxy/httpproxy"
-	"github.com/coreos/etcd/version"
+	"github.com/dndungu/etcd/discovery"
+	"github.com/dndungu/etcd/embed"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/pkg/cors"
+	"github.com/dndungu/etcd/pkg/fileutil"
+	pkgioutil "github.com/dndungu/etcd/pkg/ioutil"
+	"github.com/dndungu/etcd/pkg/osutil"
+	"github.com/dndungu/etcd/pkg/transport"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/proxy/httpproxy"
+	"github.com/dndungu/etcd/version"
 	"github.com/coreos/pkg/capnslog"
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/prometheus/client_golang/prometheus"
@@ -47,7 +47,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")
@@ -374,7 +374,7 @@ func setupLogging(cfg *config) {
 		capnslog.SetGlobalLogLevel(capnslog.DEBUG)
 	}
 	if cfg.LogPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/coreos/etcd")
+		repoLog := capnslog.MustRepoLogger("github.com/dndungu/etcd")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.LogPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

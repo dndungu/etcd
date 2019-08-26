@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/dndungu/etcd/clientv3"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
 )
 
 type simplePrinter struct {

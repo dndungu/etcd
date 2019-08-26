@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3/mirror"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/clientv3/mirror"
+	"github.com/dndungu/etcd/integration"
+	"github.com/dndungu/etcd/mvcc/mvccpb"
+	"github.com/dndungu/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 )
 

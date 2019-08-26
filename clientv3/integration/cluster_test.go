@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/integration"
+	"github.com/dndungu/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/pkg/types"
 	"golang.org/x/net/context"
 )
 

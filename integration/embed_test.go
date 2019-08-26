@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/embed"
+	"github.com/dndungu/etcd/embed"
 )
 
 func TestEmbedEtcd(t *testing.T) {

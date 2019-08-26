@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/report"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/pkg/report"
 )
 
 var (

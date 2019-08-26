@@ -34,17 +34,17 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/etcdserver/api/v2http"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/dndungu/etcd/client"
+	"github.com/dndungu/etcd/clientv3"
+	"github.com/dndungu/etcd/etcdserver"
+	"github.com/dndungu/etcd/etcdserver/api"
+	"github.com/dndungu/etcd/etcdserver/api/v2http"
+	"github.com/dndungu/etcd/etcdserver/api/v3rpc"
+	pb "github.com/dndungu/etcd/etcdserver/etcdserverpb"
+	"github.com/dndungu/etcd/pkg/testutil"
+	"github.com/dndungu/etcd/pkg/transport"
+	"github.com/dndungu/etcd/pkg/types"
+	"github.com/dndungu/etcd/rafthttp"
 	"github.com/coreos/pkg/capnslog"
 )
 
@@ -72,7 +72,7 @@ var (
 		ClientCertAuth: true,
 	}
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "integration")
+	plog = capnslog.NewPackageLogger("github.com/dndungu/etcd", "integration")
 )
 
 type ClusterConfig struct {

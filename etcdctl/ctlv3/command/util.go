@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"regexp"
 
-	pb "github.com/coreos/etcd/mvcc/mvccpb"
+	pb "github.com/dndungu/etcd/mvcc/mvccpb"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )
